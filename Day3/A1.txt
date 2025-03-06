@@ -1,0 +1,19 @@
+1. Write a Java program to calculate the area and perimeter of a rectangle using int and double data types.  
+
+2. Declare and initialize different types of variables (int, float, char, boolean, String) and print their default and assigned values.  
+
+3. Write a Java program to perform arithmetic operations (+, -, *, /, %) on two user-input numbers and display the results.  
+
+4. Write a Java program to check if a given year is a leap year or not using an if-else statement.  
+
+5. Develop a Java program to determine the number of days in a given month using a switch-case statement.  
+
+6. Write a Java program to print the sum of all even numbers from 1 to n, where n is user input.  
+
+7. Write a Java program that reverses a given integer number using a while loop.  
+
+8. Implement a Java program to find the second-largest number in an integer array.  
+
+9. Write a Java program to check if two arrays are equal (having the same elements in the same order).  
+
+10. Create a Java method named countVowels(String str) that returns the number of vowels in a given string.
