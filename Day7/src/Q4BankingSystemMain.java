@@ -10,18 +10,6 @@ class Account
 		this.accountHolderName = accountHolderName;
 		this.balance = balance;
 	}
-//	void deposit(float amount)
-//	{
-//		if(amount>0)
-//		{
-//			balance +=amount;
-//			System.out.println("Deposited: " + amount);
-//		}
-//		else
-//		{
-//			System.out.println("Invalid Amount !!!");
-//		}
-//	}
 	
 	 public void displayDetails() {
 	        System.out.println("Account Number: " + accountNumber);
@@ -55,7 +43,7 @@ class savingAccount extends Account
 	
 	void withdraw(float amount)
 	{
-		if(amount>0 && amount < balance)
+		if(amount>0 && amount <= balance)
 		{
 			balance -=amount;
 			System.out.println("Withdraw: " + amount);
