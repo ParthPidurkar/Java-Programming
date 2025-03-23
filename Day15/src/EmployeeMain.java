@@ -86,7 +86,7 @@ public class EmployeeMain
 					al= em.readFile();
 					for(int i=0;i<al.size();i++)
 					{
-						if(al.get(i).experience>=5)
+						if(al.get(i).salary>=50000)
 						{
 							al.get(i).diaplay();;
 						}
